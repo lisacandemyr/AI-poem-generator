@@ -46,7 +46,7 @@ body {
 }
 
 .container {
-  margin: 200px auto;
+  margin: 150px auto;
   max-width: 700px;
 }
 
@@ -108,7 +108,7 @@ footer {
   color: whitesmoke;
   font-family: "Red Hat Display", sans-serif;
   font-size: 15px;
-  margin: 10px 0 200px 0;
+  margin: 10px 0 250px 0;
   opacity: 0.9;
   text-align: center;
 }
