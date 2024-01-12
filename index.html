@@ -23,6 +23,7 @@
   <body>
     <div class="grain"></div>
     <div class="container">
+      <img src="src/logo.png" class="logo img-fluid" id="logo" alt="logo" />
       <header><h1>Welcome to the AI Poem generator</h1></header>
       <main>
         <form id="poem-generator-form">
@@ -37,8 +38,9 @@
           />
           <input class="col-3 submit-button" value="Submit" type="submit" />
         </form>
+        <small>e.g: Flower, Snow, City etc.</small>
       </main>
-      <section>
+      <section class="hidden" id="poem-section">
         <div class="poem" id="poem"></div>
       </section>
       <footer>
